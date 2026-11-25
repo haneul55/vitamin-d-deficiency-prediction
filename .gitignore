@@ -1,0 +1,12 @@
+# 대회 데이터·예측은 재배포하지 않음
+src/data/*.csv
+**/submission.csv
+# 학습 산출물 (스크립트로 다시 생성)
+*.npy
+*.joblib
+*.zip
+*.log
+*.out
+src/submit*/
+__pycache__/
+.ipynb_checkpoints/

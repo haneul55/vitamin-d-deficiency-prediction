@@ -1,0 +1,36 @@
+[
+ {
+  "score": 0.6856580899880651,
+  "std": 0.0006652444755092695,
+  "auc": 0.7200997174203266,
+  "f1": 0.6512164625558033,
+  "params": {
+   "subsample": 0.7,
+   "reg_lambda": 2.0,
+   "num_leaves": 23,
+   "n_estimators": 200,
+   "min_split_gain": 0.01,
+   "min_child_samples": 250,
+   "colsample_bytree": 0.4,
+   "class_weight": null,
+   "cat_smooth": 50
+  }
+ },
+ {
+  "score": 0.6850463627719705,
+  "std": 0.0005842277905544074,
+  "auc": 0.7190596334895122,
+  "f1": 0.651033092054429,
+  "params": {
+   "subsample": 0.7,
+   "reg_lambda": 10.0,
+   "num_leaves": 47,
+   "n_estimators": 200,
+   "min_split_gain": 0.01,
+   "min_child_samples": 20,
+   "colsample_bytree": 0.3,
+   "class_weight": null,
+   "cat_smooth": 20
+  }
+ }
+]
